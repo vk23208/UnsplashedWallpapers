@@ -33,7 +33,7 @@ for i in images:
     request.urlretrieve(i,full_file_name)    
 
 time.sleep(5)
-#Image folder will open after 5 seconds, meanwhile all images will be downloaded in the path given above
+#Image folder will open after 5 seconds, meanwhile all images will be downloaded in the path in background
 os.startfile('E:\\picturescrapper')
 
 
